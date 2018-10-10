@@ -1,0 +1,21 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "012-34-567"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "platform" : "HomeAssistant",
+            "name" : "HomeAssistant",
+            "host": "http://home-assistant:8123",
+            "password": "welcome",
+            "supported_types": ["automation", "binary_sensor", "climate", "cover", "device_tracker", "fan", "group", "input_boolean", "light", "lock", "media_player", "remote", "scene", "script", "sensor", "switch", "vacuum"],
+            "default_visibility": "hidden",
+            "logging": true,
+            "verify_ssl": true
+        }
+    ]
+}
