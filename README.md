@@ -1,3 +1,5 @@
+THis is just an example image, it is not maintained...
+
 # Docker image for Homebridge with Home-Assistant plugin
  
 This image uses https://github.com/marcoraddatz/homebridge-docker as base, much och the scripts and docker configuration has been taken from this repository, credit to the creators.
